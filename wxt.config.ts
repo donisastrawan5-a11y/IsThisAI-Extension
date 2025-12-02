@@ -16,16 +16,16 @@ export default defineConfig({
     ],
 
     icons: {
-      '16': 'assets/icons/48.png',
-      '48': 'assets/icons/48.png',
-      '128': 'assets/icons/128.png'
+      '16': 'icon/48.png',
+      '48': 'icon/48.png',
+      '128': 'icon/128.png'
     },
 
     action: {
       default_icon: {
-        '16': 'assets/icons/48.png',
-        '48': 'assets/icons/48.png',
-        '128': 'assets/icons/128.png'
+        '16': 'icon/48.png',
+        '48': 'icon/48.png',
+        '128': 'icon/128.png'
       },
       default_title: 'IsThisAI?  - AI Content Detector',
       default_popup: 'entrypoints/popup/index.html'

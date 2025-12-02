@@ -11,3 +11,17 @@ export interface TextAnalysis {
     todalWords: number;
     sentenceComplexity: number;
 }
+
+export interface ImageAnalysis {
+    hasMetadata: boolean;
+    metadata: Record<string, any>;
+    fileSize: number;
+    dimensions: {
+        width: number;
+        height: number;
+    };
+}
+
+export interface imageDetectionResult extends DetectionResult {
+    imageAnalysis?: ImageAnalysis;
+}
